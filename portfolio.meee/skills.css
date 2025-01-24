@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background { 
+    background-image: url('min.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+}

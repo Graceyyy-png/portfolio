@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background { 
+    background-image: url('3VEH9x.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+.centre-align {
+    text-align: center;
+}
+
+.custom-style {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+}
+
+img {
+    width: 300px;
+    margin-bottom: 20px; 
+}
+
+.navbar {
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
+    background-color: rgba(35, 36, 36, 0.8); 
+    border-radius: 5px; 
+    display: flex; 
+    flex-direction: row; 
+    padding: 10px; 
+}
+
+.navbar a {
+    background-color: #4cacaf; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    transition: background-color 0.3s; 
+}
+
+.navbar a:hover {
+    background-color: #8e3e63; 
+}
+
+.icon {
+    font-size: 24px; 
+    color: #af4f4c; 
+    margin-right: 8px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li {
+    margin: 10px 0; 
+}

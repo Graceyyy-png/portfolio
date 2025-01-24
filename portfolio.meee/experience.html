@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" href="skills.css">
+
+    <style>
+        body {
+            margin: 0; 
+            padding: 0;
+            background-attachment: fixed;
+            color: bisque;
+            background-image: url("min.jpg");
+            height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            flex-direction: column; 
+        }
+
+        .font-times {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            color: black;
+        }
+
+        .font-arial {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: x-large;
+            color: black;
+        }
+
+        .text-align {
+            text-align: center;
+            text-justify: justify; 
+        }
+
+        .custom-style {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: bisque;
+        }
+        .custom-style3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: black;
+            font-size: large;
+            font-style: oblique;
+        }
+
+        #myimage1, #myimage2 {
+            display: none;
+            width: 300px;
+            height: auto; 
+        }
+
+        img {
+            float: right;
+            width: 300px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .navbar {
+            position: absolute; 
+            top: 20px; 
+            right: 20px; 
+            background-color: #e7c3d2cc; 
+            border-radius: 5px; 
+            display: flex; 
+            flex-direction: row; 
+            padding: 10px; 
+        
+        }
+
+        .navbar a {
+            background-color: #4cacaf; 
+            color: white; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            text-decoration: none; 
+            margin:  0 10px; 
+            text-align: center; 
+            transition: background-color 0.3s; 
+            flex-direction: row;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #8e3e63; 
+        }
+        
+
+        .video {
+            width: 280px; 
+            height: auto; 
+            float: left; 
+            margin-left: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+   
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            grid-template-rows: repeat(2, 1fr); 
+            height: 100vh; 
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: white;
+        }
+
+        .box1 {
+            background-image: url('min.jpg'); 
+            background-size: cover;  
+            background-position: center;
+          }
+
+        .box2 {
+            background-image: url('612.webp'); 
+            background-size: cover;  
+            background-position: center;
+        }
+
+        .box3 {
+            background-image:  url('istockphoto-1777088857-612x612.webp'); 
+            background-size: cover;  
+            background-position: center;
+        }
+
+        .box4 {
+            background-image: url('2121212.jpg'); 
+            background-size: cover;  
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contacts</a>
+        <a href="project.html">projects</a>
+    </nav>
+    <div class="container">
+        <div class="box box1">
+            <h1 class="custom-style">Insight Cute Penetration Test</h1>
+            <br></br>
+            <p class="text-align">
+                Insight cute is a website used in Jomo Kenyatta International Airport to show FIDs and display flights and the gates.
+                <br></br>
+                I carried out penetration testing after the airport was 'supposedly hacked'. 
+                <br></br>
+                I was still an intern working under KAA. In the year 2023, i worked there for 3 months.
+                </p>
+        </div>
+
+        <div class="box box2"> 
+            <h1 class="custom-style">Educational background</h1>
+            <br></br>
+            <p class="custom-style">
+                I have a degree in Computer security and forensics from the meru university of science and Technology.
+                <br></br>
+                a four year that came to competion in the last quater of the year 2024.
+                <br></br>
+                I am currently pursuing different certificates in line with the attained bachelors degree.
+            </p>
+        </div>
+
+        <div class="box box3">
+            <h1 class="custom-style">It security consultant</h1>
+            <br></br>
+            <p class="custom-style3">
+                this was at Nairobi water and sewerage company.
+                <br></br>
+                a new security system for cases that were to be arrainged in court and the electronic evidence was being implemented
+                <br></br>
+                in the period of 5 months that i was there i served the role of a it security consultant, mostly interms of what
+                <br></br>
+                was to be done and how it was to be done. and what software was to be used and methods to preserve electronic evidence.
+            </p>
+        </div>
+        <div class="box box4">
+            <h1 class="font-times">Certifications</h1>
+            <br></br>
+            <ul class="font-arial">
+                <li>fortinet cloudcomputing certificate</li>
+                <li>fortinet cyber security certificate</li>
+            </ul>
+        </div>
+   
+
+</body>
+</html>

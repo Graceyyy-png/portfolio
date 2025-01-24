@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link rel="stylesheet" href="skills.css">
+
+    <style>
+        body {
+            margin: 0; 
+            padding: 0;
+            background-attachment: fixed;
+            color: bisque;
+            background-image: url("min.jpg");
+            height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            flex-direction: column; 
+        }
+
+        .font-times {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .font-arial {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text-align {
+            text-align: center;
+            text-justify: justify; 
+        }
+
+        .custom-style {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: bisque;
+        }
+
+        .navbar {
+            position: absolute; 
+            top: 20px; 
+            right: 20px; 
+            background-color: rgba(35, 36, 36, 0.8); 
+            border-radius: 5px; 
+            display: flex; 
+            flex-direction: row; 
+            padding: 10px; 
+        }
+
+        .navbar a {
+            background-color: #4cacaf; 
+            color: white; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            text-decoration: none; 
+            margin: 0 10px; 
+            text-align: center; 
+            transition: background-color 0.3s; 
+        }
+
+        .navbar a:hover {
+            background-color: #8e3e63; 
+        }
+
+        .container {
+            position: relative; 
+            margin: 100px 0 0 200px;
+            width: 70%;
+            height: 450px; 
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .container img {
+            width: 10%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.684);
+            transition: all ease-in-out 0.5s;
+        }
+
+        .container img:hover {
+            width: 25%;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+            color: rgb(216, 21, 21); 
+            font-size: 24px; 
+            text-shadow: 2px 2px 4px rgba(130, 233, 12, 0.616); 
+            display: none;
+        }
+
+        .container:hover .text-overlay {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contacts</a>
+        <a href="experience.html">Experience</a>
+    </nav>
+    <h1 class="custom-style">Hover around images to display projects</h1>
+    <br><br>
+    <div class="container">
+        <img src="Untitled.png" alt="Project 1">
+        <img src="projected.jpg" alt="Project 2">
+        <img src="Screenshot 1-00.png" alt="Project 3">
+        <img src="_Dog_Wallpaper.jpeg" alt="Project 4">
+    </div>
+</body>
+</html>

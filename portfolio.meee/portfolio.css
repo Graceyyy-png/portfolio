@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+background{
+    background-image: url('nsplash.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+}
+#myimage1, #myimage2 {
+    display: none;
+    width: 300px;
+    height: auto; 
+}
